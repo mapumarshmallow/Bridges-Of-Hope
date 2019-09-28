@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './contact/contact.component';
+import { MinistryComponent } from './ministry/ministry.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    ContactComponent
+    ContactComponent,
+    MinistryComponent
   ],
   imports: [
     BrowserModule,
