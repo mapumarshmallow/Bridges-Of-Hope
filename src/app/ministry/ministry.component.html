@@ -3,7 +3,16 @@
         <h1 class="ministry-header">Ministries/Designated Programs</h1>
         <hr>
         <div class="ministry-cards">
-            <div>
+            <div *ngFor="let x of ministries" class="ministry-card">
+                <img src="{{ x.pic }}"/>
+                <h3> {{ x.name }} </h3>
+                <h5> {{ x.description }} </h5>
+                <h5> {{ x.note }} </h5>
+                <h5> {{ x.email }}</h5>
+            </div>
+            <div *ngFor="let x of extendedMinistries; let i = index" class="ministry-card">
+                <img src="{{ x.pic }}"/>
+                <h3> {{ x.name }} </h3>
             </div>
         </div>
     </div>

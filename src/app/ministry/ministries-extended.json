@@ -1,0 +1,26 @@
+[
+    {
+        "name": "EXTENDED MISSION",
+        "info": "When enough fund is raised, we seek for other opportunities to provide help in other areas:",
+        "areas":[
+            {
+                "id": "1",
+                "name":"Medicine Cabinet.",
+                "description": "$500 for complete cabinet. Fund is sent to local evangelical medical professionals for medical supplies in designated remote areas."
+            },
+            {
+                "id": "2",
+                "name":"Medical Mission.",
+                "description": "HFTF & VN local churches work together to organize events--providing free medical checks for all in the community."
+            },
+            {
+                "id": "3",
+                "name":"Home Building/Renovating",
+                "description": "for widows."
+            }
+        ],
+        "note": "Read more on EXTENDED MISSIONS here!",
+        "URL": "/#",
+        "pic": "../../assets/img/man.jpg"
+    }
+]
