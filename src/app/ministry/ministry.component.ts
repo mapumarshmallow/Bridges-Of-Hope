@@ -10,9 +10,12 @@ import specialDatas from './ministries-extended.json';
 export class MinistryComponent implements OnInit {
   public ministries: any = datas;
   public extendedMinistries: any = specialDatas;
+  public extendedMinistries_areas: any;
+  
   constructor() { }
 
   ngOnInit() {
+    this.extendedMinistries_areas = this.extendedMinistries[0].areas;
   }
 
 }

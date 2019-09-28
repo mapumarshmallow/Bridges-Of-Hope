@@ -10,9 +10,14 @@
                 <h5> {{ x.note }} </h5>
                 <h5> {{ x.email }}</h5>
             </div>
-            <div *ngFor="let x of extendedMinistries; let i = index" class="ministry-card">
+            <div *ngFor="let x of extendedMinistries" class="ministry-card">
                 <img src="{{ x.pic }}"/>
                 <h3> {{ x.name }} </h3>
+                <h5> {{ x.info }} </h5>
+                <div *ngFor = "let y of extendedMinistries_areas">
+                    <h5> {{ y.id }}) </h5>
+                    <h5 style="font-weight: bold"> {{ y.name }} </h5>
+                </div>
             </div>
         </div>
     </div>
