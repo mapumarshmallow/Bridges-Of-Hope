@@ -1,6 +1,6 @@
 
 hr {
-    border: 1vh solid crimson;
+    border: 10px solid crimson;
     width: 70%;
 }
 .ministry-header {
@@ -26,4 +26,9 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px;
+}
+.ministry-bottom {
+    margin: 0 auto;
+    height: 200px;
+    width: 100%
 }
