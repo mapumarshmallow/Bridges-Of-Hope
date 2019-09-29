@@ -7,7 +7,7 @@
                 <img src="{{ x.pic }}"/>
                 <h4> {{ x.name }} </h4> <br>
                 <h6> {{ x.description }} </h6> <br>
-                <a href="{{x.URL}}"> {{ x.note }}</a> <br>
+                <a [routerLink] = "'{{\camphope}}'"> {{ x.note }}</a> <br>
                 <h6> {{ x.email }}</h6> <br>
             </div>
             <div *ngFor="let x of extendedMinistries" class="ministry-card">
