@@ -20,5 +20,4 @@ export class NavBarComponent implements OnInit {
   closeNav() {
     document.getElementById("Menu-bar").style.width = "0";
   }
-  showFiller = false;
 }

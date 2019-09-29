@@ -13,9 +13,8 @@
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 15px;
     color: #262626;
-    display: inline;
+    display: block;
     transition: 0.3s;
   }
 
@@ -59,3 +58,11 @@
     padding-top: 15px;
 }
 
+.dropdown-menu.show{
+    display: contents;
+}
+
+.dropdown-menu {
+    font-size: 10px;
+    text-align: left;
+}
