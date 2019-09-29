@@ -17,7 +17,7 @@ import { MinistryComponent } from './ministry/ministry.component';
     AppComponent,
     TitleComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
     NavBarComponent,
     ContactComponent,
     MinistryComponent
