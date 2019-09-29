@@ -5,15 +5,18 @@ hr {
 /* You can add global styles to this file, and also import other style files */
 h1 {
     color: rgb(0, 0, 0);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
     font-size: 500%;
+    margin : 4% 0% 0% 0%;
   }
 .header-size {
-  margin : 0% 0% 5% 42%;
   height : 10px;
   width : 100%;
 }
 .header {
   height : 20%;
   width : 100%;
+}
+.header-line {
+  margin : 10% 0% 0% 0%;
 }
