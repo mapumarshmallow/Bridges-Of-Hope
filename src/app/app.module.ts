@@ -13,6 +13,7 @@ import { MinistryComponent } from './ministry/ministry.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { MinCampHopeComponent } from './min-camp-hope/min-camp-hope.component';
 import { MinCampCarouselComponent } from './min-camp-carousel/min-camp-carousel.component';
+import { PrayerRequestComponent } from './prayer-request/prayer-request.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MinCampCarouselComponent } from './min-camp-carousel/min-camp-carousel.
     HomepageComponent,
     MinCampHopeComponent,
     MinCampCarouselComponent,
+    PrayerRequestComponent,
   ],
   imports: [
     BrowserModule,
