@@ -16,11 +16,17 @@
     
   } */
   body {
-    margin: 2em;
+    text-align: center;
+    font-size: 2.5em;
+    margin: inherit;
   }
-  body, input[type="text"], button {
+  /* body, input[type="text"], button {
     color: #333;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } */
+
+  .author {
+    font-size: 10px
   }
   
   /* h4 {

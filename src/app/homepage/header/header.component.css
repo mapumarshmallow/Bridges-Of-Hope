@@ -26,3 +26,45 @@ hr {
   text-align: center;
   font-size: 2.5em;
 }
+.author {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 50px;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+.note{
+  font-size: 20px;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 50px;
+  font-style: italic;
+  color: red;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+.letter {
+  font-size: 17px;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 450px;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+.verse {
+  font-size: 17px;
+  text-align: right;
+  margin-left: 950px;
+  margin-right: 150px;
+  margin-bottom: 5px;
+  margin-top: -900px;
+}
+.body-bottom {
+  overflow-x : hidden;
+  margin: 45% 0% -5% 5%;
+  max-width: 100%;
+  height: 200px;
+  width: 90%;
+}
