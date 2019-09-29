@@ -1,0 +1,19 @@
+<div>
+    <div class="contact-body">
+        <h1 class="contact-header">CONTACT US</h1>
+        <hr>
+        <div class="contact-pic-center"></div>
+        </div>
+        <div class="contact-people">
+            <div *ngFor="let x of people">
+                <div class="contact-card">
+                    <img src="{{ x.pic }}"/>
+                    <h3> {{ x.name }} </h3>
+                    <h5> {{ x.position }} </h5>
+                    <h5> {{ x.phone }} </h5>
+                    <h5> {{ x.email }}</h5>
+                </div>
+            </div>
+            
+    </div>
+</div>

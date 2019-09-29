@@ -1,0 +1,23 @@
+
+
+
+<span style="font-size:25px; cursor:pointer" (click)="openNav()"> &#9776; </span>
+<span class="title"> Bridges of Hope</span>
+
+<div class="sidenav navbar-nav" id="Menu-bar">    
+    <div id="A">
+            <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+            <span class="menu"> Menu </span>
+    </div>
+    <br>
+        <a href="#">Home</a>
+        <a [routerLink] = "'/contacts'">Contact us</a>
+        <a [routerLink] = "'/ministries'">Ministries</a>
+        <a href="#">Prayer Request</a>
+        <a href="#">What's Happening</a>
+        <a href="#">Who we are</a>
+        <a href="#">Culture Connection</a>
+        <a href="#">FAQ</a>
+        <a href="#">Photo Gallery</a>
+</div>
+<router-outlet></router-outlet>

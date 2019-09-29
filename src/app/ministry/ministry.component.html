@@ -1,0 +1,25 @@
+<div>
+    <div class="ministry-body">
+        <h1 class="ministry-header">Ministries/Designated Programs</h1>
+        <hr>
+        <div class="ministry-cards">
+            <div *ngFor="let x of ministries" class="ministry-card">
+                <img src="{{ x.pic }}"/>
+                <h3> {{ x.name }} </h3> <br>
+                <h5> {{ x.description }} </h5> <br>
+                <a href="{{x.URL}}"> {{ x.note }}</a> <br>
+                <h5> {{ x.email }}</h5> <br>
+            </div>
+            <div *ngFor="let x of extendedMinistries" class="ministry-card">
+                <img src="{{ x.pic }}"/>
+                <h3> {{ x.name }} </h3> <br>
+                <h5> {{ x.info }} </h5> <br>
+                <div *ngFor = "let y of extendedMinistries_areas">
+                    <h5> {{ y.id }}) <span style="font-weight: bold"> {{ y.name }}</span> {{ y.description }} </h5>
+                    <br>
+                </div>
+                <a href ="{{x.URL}}"> {{ x.note }} </a>
+            </div>
+        </div>
+    </div>
+</div>
