@@ -10,14 +10,14 @@
             <span class="menu"> Menu </span>
     </div>
     <br>
-        <a href="#">Home</a>
-        <a [routerLink] = "'/contacts'">Contact us</a>
-        <a [routerLink] = "'/ministries'">Ministries</a>
-        <a href="#">Prayer Request</a>
-        <a href="#">What's Happening</a>
-        <a href="#">Who we are</a>
-        <a href="#">Culture Connection</a>
-        <a href="#">FAQ</a>
-        <a href="#">Photo Gallery</a>
+        <a [routerLink] = "'/homepage'" (click)="closeNav()">Home</a>
+        <a [routerLink] = "'/contacts'" (click)="closeNav()">Contact us</a>
+        <a [routerLink] = "'/ministries'" (click)="closeNav()">Ministries</a>
+        <a href="#" (click)="closeNav()">Prayer Request</a>
+        <a href="#" (click)="closeNav()">What's Happening</a>
+        <a href="#" (click)="closeNav()">Who we are</a>
+        <a href="#" (click)="closeNav()">Culture Connection</a>
+        <a href="#" (click)="closeNav()">FAQ</a>
+        <a href="#" (click)="closeNav()">Photo Gallery</a>
 </div>
 <router-outlet></router-outlet>
