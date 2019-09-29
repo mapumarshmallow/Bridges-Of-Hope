@@ -1,6 +1,6 @@
 hr {
     border: 10px solid crimson;
-    width: 70%;
+    width: 90%;
 }
 /* You can add global styles to this file, and also import other style files */
 h1 {
@@ -9,7 +9,7 @@ h1 {
     font-size: 500%;
   }
 .header-size {
-  margin : 0% 0% 5% 45%;
+  margin : 2% 0% 5% 45%;
   height : 10px;
   width : 100%;
 }
