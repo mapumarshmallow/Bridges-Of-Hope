@@ -4,41 +4,34 @@
     "position": "Team Leader",
     "phone": "Cell: 972-849-0953",
     "email": "loctanphan@yahoo.com",
-    "pic": "../../assets/img/man.jpg"
+    "pic": "../../assets/img/Loc_pic.jpg"
   },
   {
     "name": "Vivian (Linh) Phan",
     "position": "Treasurer",
     "phone": "Cell: 817-374-3654",
     "email": "vivian.phan@yahoo.com",
-    "pic": "../../assets/img/man.jpg"
+    "pic": "../../assets/img/Linh_pic.jpg"
   },
   {
-    "name": "Tu Uyen (Tiv.) Tran",
+    "name": "Tu Uyen (Tiv) Tran",
     "position": "Special Coordinator",
     "phone": "Cell: 682-557-1530",
     "email": "tivanh2003@gmail.com",
-    "pic": "../../assets/img/man.jpg"
+    "pic": "../../assets/img/Tiv_pic.jpg"
   },
   {
-    "name": "Sharon(Loan) Hoang",
+    "name": "Sharon (Loan) Hoang",
     "position": "Advisor",
-    "phone": "Cell: ",
+    "phone": "Cell: 000-000-0000",
     "email": "edgar.gonz2016@gmail.com",
-    "pic": "../../assets/img/man.jpg"
+    "pic": "../../assets/img/Loan_pic.jpg"
   },
   {
     "name": "Andrew Nguyen",
-    "position": "Fund raise Director",
+    "position": "Fund Raise Director",
     "phone": "Cell: 972-989-2720",
     "email": "anguyen@lotusoilgas.com",
-    "pic": "../../assets/img/man.jpg"
-  },
-  {
-    "name": "edgar",
-    "position": "Lead",
-    "phone": "81768770898",
-    "email": "edgar.gonz2016@gmail.com",
-    "pic": "../../assets/img/man.jpg"
+    "pic": "../../assets/img/Andrew_pic.jpg"
   }
 ]

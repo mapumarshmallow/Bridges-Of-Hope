@@ -2,15 +2,15 @@
     <div class="contact-body">
         <h1 class="contact-header">CONTACT US</h1>
         <hr>
-        <div class="contact-pic-center"></div>
+        <img src ="../../assets/img/group_pic.jpg" class="contact-pic-center"/>
         </div>
-        <div class="contact-people">
+        <div class="contact-cards">
             <div *ngFor="let x of people">
                 <div class="contact-card">
                     <img src="{{ x.pic }}"/>
-                    <h3> {{ x.name }} </h3>
-                    <h5> {{ x.position }} </h5>
-                    <h5> {{ x.phone }} </h5>
+                    <h4 style="font-weight: bold"> {{ x.name }} </h4>
+                    <h6> {{ x.position }} </h6>
+                    <h6> {{ x.phone }} </h6>
                     <h6> {{ x.email }}</h6>
                 </div>
             </div>
