@@ -15,8 +15,8 @@
         <a class="dropdown-toggle" [routerLink] = "'/ministries'"  role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Ministries
         </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">CAMP HOPE</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" >
+                    <a class="dropdown-item" [routerLink] = "'\camphope'" (click)="closeNav()">CAMP HOPE</a>
                     <a class="dropdown-item" href="#">EDUCATION SCHOLARSHIP</a>
                     <a class="dropdown-item" href="#">WATER FILTRATION</a>
                     <a class="dropdown-item" href="#">EXTENDED MISSION</a>

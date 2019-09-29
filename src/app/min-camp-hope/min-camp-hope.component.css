@@ -1,0 +1,17 @@
+.camphope-header{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+hr {
+    border: 1vh solid crimson;
+    width: 70%;
+}
+
+.words{
+    margin-right: 70px;
+}
+.words2{
+    margin: 70px;
+    margin-top: 20px;
+}
