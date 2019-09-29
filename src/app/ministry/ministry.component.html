@@ -7,10 +7,10 @@
                 <img src="{{ x.pic }}"/>
                 <h4> {{ x.name }} </h4> <br>
                 <h6> {{ x.description }} </h6> <br>
-                <a [routerLink] = "'\camphope'"> {{ x.note }}</a> <br>
+                <a [routerLink] = "'/camphope'"> {{ x.note }}</a> <br>
                 <h6> {{ x.email }}</h6> <br>
             </div>
-            <div *ngFor="let x of extendedMinistries" class="ministry-card">
+            <!-- <div *ngFor="let x of extendedMinistries" class="ministry-card">
                 <img src="{{ x.pic }}"/>
                 <h4> {{ x.name }} </h4> <br>
                 <h6> {{ x.info }} </h6> <br>
@@ -19,7 +19,7 @@
                     <br>
                 </div>
                 <a href ="{{x.URL}}"> {{ x.note }} </a>
-            </div>
+            </div> -->
         </div>
         <div class = "ministry-bottom" style = "background-color: lightblue"></div>
     </div>

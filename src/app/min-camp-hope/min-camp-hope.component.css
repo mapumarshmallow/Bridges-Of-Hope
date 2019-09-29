@@ -10,10 +10,13 @@ hr {
 
 .words{
     margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 5px;
 }
 .words2{
-    margin: 70px;
-    margin-top: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 10px;
 }
 .hope-bottom {
     margin: 0 auto;
