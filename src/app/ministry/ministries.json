@@ -4,21 +4,21 @@
         "description": "Camp Hope is the focus of our Mission. Every year, we work with trusted local Vietnamese Churches to  plan & organize  VBS experiences these sweet orphans can never forget.",
         "URL": "/camphope",
         "note": "Read more on CAMP HOPE here!",
-        "pic": "../../assets/img/man.jpg"
+        "pic": "../../assets/img/camphope_pic.jpg"
     },
     {
         "name": "EDUCATIONAL SCHOLARSHIPS",
         "description": "This program has been executed and maintained for the past 7 years. Every year, we provide scholarships for  the same 10 orphans residing in Can Tho area with high academic potential but can't  afford it. Our unique scholarship program follows the same orphans/students until completion of 12th grade.",
         "URL": "'/#'",
         "note": "Read more on SCHOLARSHIPS here!",
-        "pic": "../../assets/img/man.jpg"
+        "pic": "../../assets/img/edu_pic.jpg"
       },
       {
         "name": "WATER FILTRATION",
         "description": "This program is in high demand. In June 2015, Paul brought home 6 filters (designed & manufactured by Dallas Baptist Men of Faith) and tested them in Phu Yen region of Vietnam where water source is scarce and extremely polluted. The church in Phu Yen installed some of them in the well at the church and provided locals free water. This gem sparked many conversations about the love and salvation of Christ.",
         "URL": "'/#'",
         "note": "Read more on WATER FILTRATION here!",
-        "pic": "../../assets/img/man.jpg"
+        "pic": "../../assets/img/water_fil_pic.jpg"
     }
 ]
   
