@@ -8,11 +8,11 @@ h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 500%;
-    margin : 4% 0% 0% 0%;
+    margin : 7% -50% 0% 50%;
   }
 .header-size {
   margin : 0% 0% 5% 42%;
-  height : 10px;
+  height : 20px;
   width : 100%;
 }
 .header {
@@ -20,5 +20,5 @@ h1 {
   width : 100%;
 }
 .header-line {
-  margin : 10% 16% 0% -1%;
+  margin : 5% 16% 0% -1%;
 }
