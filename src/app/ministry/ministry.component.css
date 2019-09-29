@@ -13,6 +13,7 @@ hr {
     transition: 0.3s;
     margin: 8px;
     width: 300px;
+    font-size: 15px;
 }
 .ministry-card img {
     max-width: 100%;
@@ -31,6 +32,8 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px;
+    padding-bottom: 25px;
+    height: 700px;
 }
 .ministry-bottom {
     margin: 0 auto;

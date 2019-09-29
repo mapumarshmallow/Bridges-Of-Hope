@@ -5,17 +5,17 @@
         <div class="ministry-cards">
             <div *ngFor="let x of ministries" class="ministry-card">
                 <img src="{{ x.pic }}"/>
-                <h3> {{ x.name }} </h3> <br>
-                <h5> {{ x.description }} </h5> <br>
+                <h4> {{ x.name }} </h4> <br>
+                <h6> {{ x.description }} </h6> <br>
                 <a href="{{x.URL}}"> {{ x.note }}</a> <br>
-                <h5> {{ x.email }}</h5> <br>
+                <h6> {{ x.email }}</h6> <br>
             </div>
             <div *ngFor="let x of extendedMinistries" class="ministry-card">
                 <img src="{{ x.pic }}"/>
-                <h3> {{ x.name }} </h3> <br>
-                <h5> {{ x.info }} </h5> <br>
+                <h4> {{ x.name }} </h4> <br>
+                <h6> {{ x.info }} </h6> <br>
                 <div *ngFor = "let y of extendedMinistries_areas">
-                    <h5> {{ y.id }}) <span style="font-weight: bold"> {{ y.name }}</span> {{ y.description }} </h5>
+                    <h6> {{ y.id }}) <span style="font-weight: bold"> {{ y.name }}</span> {{ y.description }} </h6>
                     <br>
                 </div>
                 <a href ="{{x.URL}}"> {{ x.note }} </a>
