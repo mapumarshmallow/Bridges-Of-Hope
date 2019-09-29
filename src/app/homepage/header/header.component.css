@@ -1,16 +1,15 @@
 hr {
-    border: 10px solid crimson;
-    width: 118.4%;
+  border: 10px solid crimson;
+  width: 90%;
 }
 /* You can add global styles to this file, and also import other style files */
-h1 {
-    background-color: lightblue;
+/* h1 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 500%;
-    margin : 7% -50% 0% 50%;
-  }
-.header-size {
+    font-size: 600%;
+    margin : 0% 0% 0% -75%;
+  } */
+/* .header-size {
   margin : 0% 0% 5% 42%;
   height : 20px;
   width : 100%;
@@ -20,5 +19,52 @@ h1 {
   width : 100%;
 }
 .header-line {
-  margin : 5% 16% 0% -1%;
+  margin : 5% -5% 0% -5%;
+} */
+
+.header{
+  text-align: center;
+  font-size: 2.5em;
+}
+.author {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 50px;
+  font-style: italic;
+  padding-top: 15px;
+}
+
+.note{
+  font-size: 20px;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 50px;
+  font-style: italic;
+  color: red;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+.letter {
+  font-size: 17px;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 450px;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+.verse {
+  font-size: 17px;
+  text-align: right;
+  margin-left: 950px;
+  margin-right: 150px;
+  margin-bottom: 5px;
+  margin-top: -900px;
+}
+.body-bottom {
+  overflow-x : hidden;
+  margin: 45% 0% -5% 5%;
+  max-width: 100%;
+  height: 200px;
+  width: 90%;
 }

@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: rgb(0, 0, 0);
     background-color: lightblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -7,7 +7,6 @@ h1 {
   h2 {
     color: #444;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* font-weight: lighter; */
     font-size: 125%;
   }
   h3 {
@@ -15,19 +14,22 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 110%;
     
-  }
+  } */
   body {
-    margin: 2em;
+    text-align: center;
+    font-size: 2.5em;
+    margin: inherit;
   }
-  body, input[type="text"], button {
+  /* body, input[type="text"], button {
     color: #333;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  } */
+
+  .author {
+    font-size: 10px
   }
-  /* everywhere else */
-  * {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  h4 {
+  
+  /* h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #333;
     font-size: 75%;
@@ -37,9 +39,9 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 120%;
     margin: -180% 0% 0% 50%;
-  }
+  } */
 .articletext {
-    margin : 5% 150px 200px 300px;
+    margin : 5% 150px 250px 300px;
     height : 800px;
     width : 450px;
 }
@@ -49,7 +51,9 @@ h1 {
     width : 300px;
 }
 .body-bottom {
-  margin: 0 auto;
+  overflow-x : hidden;
+  margin: 0% 0% -10% 0%;
+  max-width: 100%;
   height: 200px;
   width: 100%;
 }
