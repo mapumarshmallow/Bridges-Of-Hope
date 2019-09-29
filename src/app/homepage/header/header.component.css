@@ -1,9 +1,10 @@
 hr {
     border: 10px solid crimson;
-    width: 90%;
+    width: 118.4%;
 }
 /* You can add global styles to this file, and also import other style files */
 h1 {
+    background-color: lightblue;
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 500%;
@@ -18,5 +19,5 @@ h1 {
   width : 100%;
 }
 .header-line {
-  margin : 10% 0% 0% 0%;
+  margin : 10% 16% 0% -1%;
 }

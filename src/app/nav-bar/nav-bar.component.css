@@ -5,7 +5,8 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #e6e6e6;
+    background-color: lightblue;
+    /* background-color: #e6e6e6; */
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -51,6 +52,7 @@
     display: inline;
     transition: 0.3s;
     padding-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #A{
