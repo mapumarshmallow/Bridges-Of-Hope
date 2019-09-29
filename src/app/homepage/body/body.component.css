@@ -7,7 +7,7 @@ h1 {
     color: #444;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* font-weight: lighter; */
-    font-size: 100%;
+    font-size: 125%;
   }
   h3 {
     color: crimson;
@@ -34,8 +34,8 @@ h1 {
   h5 {
     color: #444;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 100%;
-    margin-right: 0%;
+    font-size: 120%;
+    margin: -180% 0% 0% 50%;
   }
 .articletext {
     margin : 10px 150px 200px 300px;
@@ -43,7 +43,7 @@ h1 {
     width : 450px;
 }
 .right-bibleverse {
-    margin : -800px 800px 0px 800px;
+    margin : -30% -50% 0% 60%;
     height : 600px;
-    width : 100px;
+    width : 300px;
 }
