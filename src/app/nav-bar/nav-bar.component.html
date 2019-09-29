@@ -12,12 +12,21 @@
     <br>
         <a [routerLink] = "'/homepage'" (click)="closeNav()">Home</a>
         <a [routerLink] = "'/contacts'" (click)="closeNav()">Contact us</a>
-        <a [routerLink] = "'/ministries'" (click)="closeNav()">Ministries</a>
+        <a class="dropdown-toggle" [routerLink] = "'/ministries'"  role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ministries
+        </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" >
+                    <a class="dropdown-item" [routerLink] = "'\camphope'" (click)="closeNav()">CAMP HOPE</a>
+                    <a class="dropdown-item" href="#">EDUCATION SCHOLARSHIP</a>
+                    <a class="dropdown-item" href="#">WATER FILTRATION</a>
+                    <a class="dropdown-item" href="#">EXTENDED MISSION</a>
+                </div>
         <a href="#" (click)="closeNav()">Prayer Request</a>
         <a href="#" (click)="closeNav()">What's Happening</a>
         <a href="#" (click)="closeNav()">Who we are</a>
         <a href="#" (click)="closeNav()">Culture Connection</a>
         <a href="#" (click)="closeNav()">FAQ</a>
         <a href="#" (click)="closeNav()">Photo Gallery</a>
+
 </div>
 <router-outlet></router-outlet>

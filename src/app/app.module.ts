@@ -11,7 +11,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './contact/contact.component';
 import { MinistryComponent } from './ministry/ministry.component';
 import { HomepageComponent } from './homepage/homepage.component';
-
+import { MinCampHopeComponent } from './min-camp-hope/min-camp-hope.component';
+import { MinCampCarouselComponent } from './min-camp-carousel/min-camp-carousel.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { HomepageComponent } from './homepage/homepage.component';
     NavBarComponent,
     ContactComponent,
     MinistryComponent,
-    HomepageComponent
+    HomepageComponent,
+    MinCampHopeComponent,
+    MinCampCarouselComponent,
   ],
   imports: [
     BrowserModule,
