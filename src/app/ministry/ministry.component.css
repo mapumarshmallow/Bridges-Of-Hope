@@ -1,7 +1,7 @@
 
 hr {
-    border: 1vh solid crimson;
-    width: 70%;
+    border: 10px solid crimson;
+    width: 90%;
 }
 .ministry-header {
     text-align: center;
@@ -26,4 +26,9 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     padding: 5px;
+}
+.ministry-bottom {
+    margin: 0 auto;
+    height: 200px;
+    width: 100%
 }

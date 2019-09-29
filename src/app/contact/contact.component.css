@@ -4,8 +4,8 @@
 }
 
 hr {
-    border: 1vh solid crimson;
-    width: 70%;
+    border: 10px solid crimson;
+    width: 90%;
 }
 
 .contact-pic-center {
@@ -27,12 +27,17 @@ hr {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     margin: 8px;
-    width: 100%;
+    width: 90%;
 }
 .contact-card img {
     max-width: 100%;
     width: 100%;
 }
 .contact-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+.contact-bottom {
+    margin: 0 auto;
+    height: 200px;
+    width: 100%;
 }
